@@ -22,13 +22,3 @@ A dark/light-mode developer portfolio built with plain HTML, CSS and JavaScript 
 6. **Avatar** — the circular hero avatar currently shows initials "SK". To use a real photo, replace the `.avatar-circle` `<span>SK</span>` in `index.html` with an `<img>` tag pointing at a photo in `assets/`.
 7. **Social preview image** — add `assets/og-cover.png` (1200×630px) for link previews, or remove the `og:image` / `twitter:image` tags.
 
-## Running locally
-Just open `index.html` in a browser, or serve the folder:
-```
-npx serve .
-```
-
-## SEO notes
-- Page title/description are tuned for "Satyam Kumar" searches.
-- A `Person` JSON-LD block is included so search engines can associate the name with the right role, education and skills.
-- Update `sameAs` links in the JSON-LD once your social profiles are final — this is what helps Google connect your portfolio to your other profiles.
